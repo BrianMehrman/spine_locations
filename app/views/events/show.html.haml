@@ -1,0 +1,18 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @event.name
+%p
+  %b Location:
+  = @event.location_id
+%p
+  %b Description:
+  = @event.description
+%p
+  %b Start:
+  = @event.start
+
+= link_to 'Edit', edit_event_path(@event)
+\|
+= link_to 'Back', events_path

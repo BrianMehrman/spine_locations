@@ -1,0 +1,9 @@
+<h1>Show Location</h1>
+
+<a data-type="edit">Edit</a> <a data-type="back">Back</a>
+
+<p>Name: <%= @name %></p>
+<p>Description: <%= @description %></p>
+<p>Address: <%= @address %></p>
+<p>latitude: <%= @latitude %></p>
+<p>longitude: <%= @longitude %></p>

@@ -1,0 +1,12 @@
+<h1>Listing Locations</h1>
+
+<% for location in @locations: %>
+  <div class="item" data-id="<%= location.id %>">
+    <a data-type="show"><%= location.name %></a>
+    
+    <a data-type="edit">Edit</a> 
+    <a data-type="destroy">Destroy</a>
+  </div>
+<% end %>
+
+<p><a data-type="new">New Location</a></p>
